@@ -93,32 +93,74 @@
 					<div class="section-heading">
 
 					<h2>บันทึกข้อมูลชุมสาย</h2>
-          <!--><i class="fa fa-2x fa-angle-down"></i> ลูกศรชี้ลง<--> 
+          <div class="row">
+      			<div class="col-lg-2 col-lg-offset-5">
+      				<hr class="marginbot-50">
+      			</div>
+      		</div>
 
           <!-- start editing from fon -->
-          <!-- add 1 from fon-->
-          <td></td>
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="boxed-grey">
+                      <form id="contact-form">
+                      <div class="row">
+                          <div class="col-md-6">
 
-          <label>ภูมิภาค : </label>
-          <select name="geography">
-						<?php
-							$strSQL = "SELECT * FROM geography";
-							mysql_query("SET NAMES UTF8");
+                              <div class="form-group">
+                                  <label for="name">จังหวัด</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น กรุงเทพมหานคร,ชลบุรี" required="required" />
+                              </div>
 
-							$objQuery = mysql_query($strSQL);
-							while($objResuut = mysql_fetch_array($objQuery))
-							{
-								?>
-									<option value="<?php echo $objResuut["GEO_NAME"];?>">
-									<?php echo $objResuut["GEO_NAME"];?>
-									</option>
+                              <div class="form-group">
+                                  <label for="name">ชุมสาย</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" /></div>
+                              </div>
 
-									<?php
-								}
-						?>
-					</select>
+                              <div class="form-group">
+                                  <label for="name">Latitude</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น 54.23434" required="required" /></div>
+                              </div>
 
-					<!--end of edit from fon : add1-->
+                              <div class="form-group">
+                                  <label for="name">Longitude</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น 210.34522" required="required" /></div>
+                              </div>
+
+                              <div class="form-group">
+                                  <label for="name">ถนน</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ถนนสุขุมวิท" required="required" /></div>
+                              </div>
+
+
+
+
+                              <div class="form-group">
+                                  <label for="subject">
+                                      Subject</label>
+                                  <select id="subject" name="subject" class="form-control" required="required">
+                                      <option value="na" selected="">Choose One:</option>
+                                      <option value="service">General Customer Service</option>
+                                      <option value="suggestions">Suggestions</option>
+                                      <option value="product">Product Support</option>
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="col-md-12">
+                              <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                                  Send Message</button>
+                          </div>
+                      </div>
+                      </form>
+                  </div>
+              </div>
+
+
 
 					</div>
 					</div>
@@ -326,6 +368,7 @@
                             </select>
                         </div>
                     </div>
+
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
