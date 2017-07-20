@@ -439,12 +439,12 @@ form#contact-form .form-group label {
 	text-align: left !important;
 	display: block;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
+	letter-spacing: 1px; /* space ตัวหนังสือ*/
+	font-size: 15px;
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
+	border-radius: ;
+	border: 1px solid #eee; /*สีกรอบ filled*/
   -webkit-box-shadow: none;
           box-shadow:  none;
 }

@@ -93,7 +93,7 @@
 					<div class="section-heading">
 
 					<h2>บันทึกข้อมูลชุมสาย</h2>
-          <i class="fa fa-2x fa-angle-down"></i>
+          <!--><i class="fa fa-2x fa-angle-down"></i> ลูกศรชี้ลง<--> 
 
           <!-- start editing from fon -->
           <!-- add 1 from fon-->
@@ -280,7 +280,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
-					<h2>Get in touch</h2>
+					<h2>แผนที่จุดติดตั้งท่อร้อยสาย</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
