@@ -1,4 +1,12 @@
+<?php require_once('connect.php'); ?>
+<?php
+  mysql_connect("localhost","root","") or die(mysql_error());
+  mysql_select_db("datatot");
+  mysql_query("SET NAMES UTF8");
+?>
+
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -83,8 +91,34 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
+
 					<h2>บันทึกข้อมูลชุมสาย</h2>
-					<i class="fa fa-2x fa-angle-down"></i>
+          <i class="fa fa-2x fa-angle-down"></i>
+
+          <!-- start editing from fon -->
+          <!-- add 1 from fon-->
+          <td></td>
+
+          <label>ภูมิภาค : </label>
+          <select name="geography">
+						<?php
+							$strSQL = "SELECT * FROM geography";
+							mysql_query("SET NAMES UTF8");
+
+							$objQuery = mysql_query($strSQL);
+							while($objResuut = mysql_fetch_array($objQuery))
+							{
+								?>
+									<option value="<?php echo $objResuut["GEO_NAME"];?>">
+									<?php echo $objResuut["GEO_NAME"];?>
+									</option>
+
+									<?php
+								}
+						?>
+					</select>
+
+					<!--end of edit from fon : add1-->
 
 					</div>
 					</div>
