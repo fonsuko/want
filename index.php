@@ -91,8 +91,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
-
 					<h2>บันทึกข้อมูลชุมสาย</h2>
+          <i class="fa fa-2x fa-angle-down"></i>
           <div class="row">
       			<div class="col-lg-2 col-lg-offset-5">
       				<hr class="marginbot-50">
@@ -100,68 +100,57 @@
       		</div>
 
           <!-- start editing from fon -->
-          <div class="row">
+          <div  class="row">
               <div class="col-lg-8">
                   <div class="boxed-grey">
                       <form id="contact-form">
                       <div class="row">
-                          <div class="col-md-6">
+                          <div  class="col-md-6">
 
-                              <div class="form-group">
+
+                              <div style="float:right"class="form-group">
                                   <label for="name">จังหวัด</label>
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น กรุงเทพมหานคร,ชลบุรี" required="required" />
+                                  <input type="text" class="form-control"  placeholder="เช่น กรุงเทพมหานคร,ชลบุรี" required="required" />
+
                               </div>
 
-                              <div class="form-group">
+                              <div style="float:right"class="form-group">
                                   <label for="name">ชุมสาย</label>
                                   <div class="form-group">
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" /></div>
+                                  <input type="text" class="form-control"  placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
+                                </div>
                               </div>
 
-                              <div class="form-group">
-                                  <label for="name">Latitude</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น 54.23434" required="required" /></div>
-                              </div>
-
-                              <div class="form-group">
-                                  <label for="name">Longitude</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น 210.34522" required="required" /></div>
-                              </div>
-
-                              <div class="form-group">
+                              <div style="float:right" class="form-group">
                                   <label for="name">ถนน</label>
                                   <div class="form-group">
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น ถนนสุขุมวิท" required="required" /></div>
+                                  <input type="text" class="form-control"  placeholder="เช่น ถนนสุขุมวิท" required="required" /></div>
                               </div>
 
-
-
-
-                              <div class="form-group">
-                                  <label for="subject">
-                                      Subject</label>
-                                  <select id="subject" name="subject" class="form-control" required="required">
-                                      <option value="na" selected="">Choose One:</option>
-                                      <option value="service">General Customer Service</option>
-                                      <option value="suggestions">Suggestions</option>
-                                      <option value="product">Product Support</option>
-                                  </select>
+                              <div style="float:right" class="form-group">
+                                  <label for="name">Latitude</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control"  placeholder="เช่น 54.23434" required="required" /></div>
                               </div>
-                          </div>
 
-                          <div class="col-md-12">
-                              <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                                  Send Message</button>
-                          </div>
+                              <div style="float:right" class="form-group">
+                                  <label for="name">Longitude</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control"  placeholder="เช่น 210.34522" required="required" /></div>
+                              </div>
+
+                              <div style="float:right" class="form-group">
+                                  <label for="name">ผู้สำรวจ</label>
+                                  <div class="form-group">
+                                  <input type="text" class="form-control"  placeholder="เช่น ชาตรี เอื้อสุจริต" required="required" /></div>
+                              </div>
+                              <button type="submit" class="btn btn-skin pull-center" >บันทึกข้อมูล</button>
+
+
                       </div>
                       </form>
                   </div>
               </div>
-
-
-
 					</div>
 					</div>
 				</div>
@@ -175,56 +164,7 @@
 				<hr class="marginbot-50">
 			</div>
 		</div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.2s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-						<h5>Anna Hanaceck</h5>
-                        <p class="subtitle">Pixel Crafter</p>
-                        <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
-                    </div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.5s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-						<h5>Maura Daniels</h5>
-                        <p class="subtitle">Ruby on Rails</p>
-                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
 
-                    </div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.8s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-						<h5>Jack Briane</h5>
-                        <p class="subtitle">jQuery Ninja</p>
-                        <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
-
-                    </div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-						<h5>Tom Petterson</h5>
-                        <p class="subtitle">Typographer</p>
-                        <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
-
-                    </div>
-                </div>
-				</div>
-            </div>
-        </div>
-		</div>
 	</section>
 	<!-- /Section: about -->
 
