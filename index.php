@@ -190,18 +190,18 @@
                       <form id="contact-form">
                       <div class="row">
                           <div class="col-md-6">
-                              <div class="form-group">
-
-                                  <label for="name">
-                                     ชื่อชุมสาย</label>
-                                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                              </div>
-
 
                               <div class="form-group">
                                   <label for="name">
-                                     ชื่อบ่อพัก</label>
-                                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                     ชุมสาย</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
+                                  </div>
+
+
+                              <div class="form-group">
+                                  <label for="name">
+                                     บ่อพัก</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น MH#001" required="required" />
                               </div>
 
 
@@ -214,23 +214,28 @@
                                       <input type="text" class="form-control"  placeholder="เช่น 32.54423" required="required" /></div>
                               </div>
 
-
                               <div class="form-group">
-                                  <label for="subject">
-                                      Subject</label>
-                                  <select id="subject" name="subject" class="form-control" required="required">
-                                      <option value="na" selected="">Choose One:</option>
-                                      <option value="service">General Customer Service</option>
-                                      <option value="suggestions">Suggestions</option>
-                                      <option value="product">Product Support</option>
-                                  </select>
+                                  <label for="name">
+                                      Longitude</label>
+                                  <div class="for">
+                                      <span class=""><span class=""></span>
+                                      </span>
+                                      <input type="text" class="form-control"  placeholder="เช่น 154.43395" required="required" /></div>
                               </div>
+
                           </div>
 
                           <div class="col-md-6">
                               <div class="form-group">
                                   <label for="name">
-                                      Message</label>
+                                      ประเภทบ่อพัก</label>
+                                      <select id="subject" name="subject" class="form-control" required="required">
+                                          <option value="na" selected="">Choose One:</option>
+                                          <option value="service">General Customer Service</option>
+                                          <option value="suggestions">Suggestions</option>
+                                          <option value="product">Product Support</option>
+                                      </select>
+
                                   <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
                                       placeholder="Message"></textarea>
                               </div>
