@@ -178,6 +178,9 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
+
+
+
 					<h2>บันทึกข้อมูลโครงสร้างบ่อพัก</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
@@ -188,10 +191,12 @@
                       <div class="row">
                           <div class="col-md-6">
                               <div class="form-group">
+
                                   <label for="name">
                                      ชื่อชุมสาย</label>
                                   <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
                               </div>
+
 
                               <div class="form-group">
                                   <label for="name">
@@ -200,15 +205,16 @@
                               </div>
 
 
-
                               <div class="form-group">
-                                  <label for="email">
-                                      Email Address</label>
-                                  <div class="input-group">
-                                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                  <label for="name">
+                                      Latitude</label>
+                                  <div class="for">
+                                      <span class=""><span class=""></span>
                                       </span>
-                                      <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                      <input type="text" class="form-control"  placeholder="เช่น 32.54423" required="required" /></div>
                               </div>
+
+
                               <div class="form-group">
                                   <label for="subject">
                                       Subject</label>
