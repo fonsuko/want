@@ -230,10 +230,9 @@
                                   <label for="name">
                                       ประเภทบ่อพัก</label>
                                       <select id="subject" name="subject" class="form-control" required="required">
-                                          <option value="na" selected="">เลือกประเภทท่อ :</option>
-                                          <option value="service">General Customer Service</option>
-                                          <option value="suggestions">Suggestions</option>
-                                          <option value="product">Product Support</option>
+                                          <option value="na" selected="">เลือกประเภทบ่อ :</option>
+                                          <option value="service">Pullbox</option>
+                                          <option value="suggestions">Manhole</option>
                                       </select>
 
                                   <text name="message"   rows="9" cols="25" required="required"
