@@ -236,9 +236,38 @@
                                       </select>
 
                                   <text name="message"   rows="9" cols="25" required="required"
-                                      placeholder="Message"></textarea>
+                                      placeholder="Message"></text>
                               </div>
+
+                              <div class="form-group">
+                                  <label for="name">
+                                     ชนิดบ่อพัก</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น A-1,JUF11" required="required" />
+                              </div>
+
+                              <div class="form-group">
+                                  <label for="name">
+                                     ถนน</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ถนนสุขุมวิท" required="required" />
+                              </div>
+
+                              <div class="form-group">
+                                  <label for="name">
+                                     ผู้สำรวจ</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น พิทักษ์ เอื้อสุจริต" required="required" />
+                              </div>
+
+
+
+
+
+
                           </div>
+
+
+
+
+
                           <div class="col-md-12">
                               <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
                                   Send Message</button>
