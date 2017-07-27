@@ -100,52 +100,83 @@
       		</div>
 
           <!-- start editing from fon -->
-          <div  class="row">
+          <div class="row">
               <div class="col-lg-8">
                   <div class="boxed-grey">
                       <form id="contact-form">
                       <div class="row">
-                          <div  class="col-md-6">
+                          <div class="col-md-6">
+
+                              <div class="form-group">
+                                  <label for="name">
+                                     ชุมสาย</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
+                                  </div>
 
 
-                              <div style="float:right"class="form-group">
-                                  <label for="name">จังหวัด</label>
-                                  <input type="text" class="form-control"  placeholder="เช่น กรุงเทพมหานคร,ชลบุรี" required="required" />
-
+                              <div class="form-group">
+                                  <label for="name">
+                                     บ่อพัก</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น MH#001" required="required" />
                               </div>
 
-                              <div style="float:right"class="form-group">
-                                  <label for="name">ชุมสาย</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control"  placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
-                                </div>
+
+                              <div class="form-group">
+                                  <label for="name">
+                                      Latitude</label>
+                                  <div class="for">
+                                      <span class=""><span class=""></span>
+                                      </span>
+                                      <input type="text" class="form-control"  placeholder="เช่น 32.54423" required="required" /></div>
                               </div>
 
-                              <div style="float:right" class="form-group">
-                                  <label for="name">ถนน</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control"  placeholder="เช่น ถนนสุขุมวิท" required="required" /></div>
+                              <div class="form-group">
+                                  <label for="name">
+                                      Longitude</label>
+                                  <div class="for">
+                                      <span class=""><span class=""></span>
+                                      </span>
+                                      <input type="text" class="form-control"  placeholder="เช่น 154.43395" required="required" /></div>
                               </div>
 
-                              <div style="float:right" class="form-group">
-                                  <label for="name">Latitude</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control"  placeholder="เช่น 54.23434" required="required" /></div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="name">
+                                      ประเภทบ่อพัก</label>
+                                      <select id="subject" name="subject" class="form-control" required="required">
+                                          <option value="na" selected="">เลือกประเภทบ่อ :</option>
+                                          <option value="service">Pullbox</option>
+                                          <option value="suggestions">Manhole</option>
+                                      </select>
+
+                                  <text name="message"   rows="9" cols="25" required="required"
+                                      placeholder="Message"></text>
                               </div>
 
-                              <div style="float:right" class="form-group">
-                                  <label for="name">Longitude</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control"  placeholder="เช่น 210.34522" required="required" /></div>
+                              <div class="form-group">
+                                  <label for="name">
+                                     ชนิดบ่อพัก</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น A-1,JUF11" required="required" />
                               </div>
 
-                              <div style="float:right" class="form-group">
-                                  <label for="name">ผู้สำรวจ</label>
-                                  <div class="form-group">
-                                  <input type="text" class="form-control"  placeholder="เช่น ชาตรี เอื้อสุจริต" required="required" /></div>
+                              <div class="form-group">
+                                  <label for="name">
+                                     ถนน</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ถนนสุขุมวิท" required="required" />
                               </div>
-                              <button type="submit" class="btn btn-skin pull-center" >บันทึกข้อมูล</button>
 
+                              <div class="form-group">
+                                  <label for="name">
+                                     ผู้สำรวจ</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น พิทักษ์ เอื้อสุจริต" required="required" />
+                              </div>
+                              
+                              <div class="col-md-12">
+                                  <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                                      Send Message</button>
+                              </div>
 
                       </div>
                       </form>
