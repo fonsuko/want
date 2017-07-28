@@ -109,15 +109,15 @@
 
                               <div class="form-group">
                                   <label for="name">
-                                     ชุมสาย</label>
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
+                                     จังหวัด</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น กรุงเทพฯ,กระบี่" required="required" />
                                   </div>
 
 
                               <div class="form-group">
                                   <label for="name">
-                                     บ่อพัก</label>
-                                  <input type="text" class="form-control" id="name" placeholder="เช่น MH#001" required="required" />
+                                     ชื่อชุมสาย</label>
+                                  <input type="text" class="form-control" id="name" placeholder="เช่น ชุมสายหาดใหญ่" required="required" />
                               </div>
 
 
@@ -172,7 +172,7 @@
                                      ผู้สำรวจ</label>
                                   <input type="text" class="form-control" id="name" placeholder="เช่น พิทักษ์ เอื้อสุจริต" required="required" />
                               </div>
-                              
+
                               <div class="col-md-12">
                                   <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
                                       Send Message</button>
