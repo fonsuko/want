@@ -446,7 +446,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                        <button type="submit" class="btn btn-skin pull-center" id="btnContactUs">
                             Send Message</button>
                     </div>
                 </div>
