@@ -498,7 +498,7 @@
 						</a>
 					</div>
 					</div>
-					<p>&copy;Copyright 2014 - Squad. All rights reserved. <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste</p>
+					<p>&copy; 5722770864 All rights reserved. <a href="http://bootstraptaste.com/">TOT Public Company Limited</a>.</p>
                     <!--
                         All links in the footer should remain intact.
                         Licenseing information is available at: http://bootstraptaste.com/license/
