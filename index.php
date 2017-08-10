@@ -175,7 +175,7 @@
 
                               <div class="col-md-12">
                                   <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                                      Send Message</button>
+                                      บันทึกข้อมูล </button>
                               </div>
 
                       </div>
